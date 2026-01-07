@@ -1,6 +1,6 @@
 {
   "name": "env-health",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tiny runtime validator for process.env with great error messages.",
   "license": "MIT",
   "type": "module",
