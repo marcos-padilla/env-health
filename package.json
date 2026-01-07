@@ -32,15 +32,15 @@
     "prepare": "husky",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "changeset publish",
-    "lint-staged": {
-      "*.{ts,tsx,js,jsx}": [
-        "eslint --fix"
-      ],
-      "*.{md,json,yml,yaml}": [
-        "prettier --write"
-      ]
-    }
+    "release": "changeset publish"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix"
+    ],
+    "*.{md,json,yml,yaml}": [
+      "prettier --write"
+    ]
   },
   "keywords": [
     "env",
